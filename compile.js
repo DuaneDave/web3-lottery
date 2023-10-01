@@ -26,6 +26,6 @@ const compiledOutput = JSON.parse(solc.compile(JSON.stringify(input)));
 const contractName = 'Lottery.sol:Index';
 const contractInterface = compiledOutput.contracts['Lottery.sol']
 
-console.log(contractInterface.Lottery.evm.bytecode.object);
+// console.log(contractInterface.Lottery.evm.bytecode.object);
 
 module.exports = contractInterface;

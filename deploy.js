@@ -1,6 +1,6 @@
 const truffleHdwalletProvider = require('@truffle/hdwallet-provider');
 const { Web3 } = require('web3');
-const { abi, evm } = require('./compile').Index;
+const { abi, evm } = require('./compile').Lottery;
 
 const provider = new truffleHdwalletProvider(
   'jump inside hat globe pool addict scorpion monitor churn add city student',
